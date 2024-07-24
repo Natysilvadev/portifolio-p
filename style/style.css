@@ -92,7 +92,7 @@ font-size: 24px;
     justify-content: center;
     gap: 16px;
     border: solid var(--cor-terciaria) 2px;
-    width:50%;
+    width:378px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
@@ -104,11 +104,8 @@ font-size: 24px;
 }
 .apresentacao_botoeslink:hover{
     background-color:#272727;
-    color: var(--cor-principal);
-}
-
-.apresentacao_imagem{
-    width: 40%;
+    color:var(--cor-principal);
+    
 }
 
 .rodape{
@@ -121,21 +118,21 @@ font-size: 24px;
     padding: 23.64px;
     }
 
-@media (max-width: 1200px){
-    .cabecalho{
-    padding: 10%;
+    @media (max-width: 1200px){
+        .cabecalho{
+        padding: 10%;
+        }
+    
+        .cabecalho_menu{
+        justify-content: center;
+        }
+    
+        .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+        }   
+    
+        .apresentacao_conteudo{
+        width: auto;
+        }
     }
-
-    .cabecalho_menu{
-    justify-content: center;
-    }
-
-    .apresentacao{
-    flex-direction: column-reverse;
-    padding: 5%;
-    }   
-
-    .apresentacao_conteudo{
-    width: auto;
-    }
-}
